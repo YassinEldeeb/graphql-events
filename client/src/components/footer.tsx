@@ -41,7 +41,7 @@ export function Footer() {
         console.error(error);
       }
     })();
-  });
+  }, []);
 
   const unsetContinents = meetups.map((meetup) => meetup.continent);
   const continents = [...new Set(unsetContinents)];

@@ -45,5 +45,8 @@
   "engines": {
     "node": ">=18",
     "pnpm": ">=8"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3"
   }
 }
