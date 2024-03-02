@@ -25,7 +25,8 @@
     "prettier": "3.0.3",
     "ts-node": "10.9.1",
     "turbo": "1.10.16",
-    "typescript": "5.2.2"
+    "typescript": "5.2.2",
+    "cross-env": "7.0.3"
   },
   "pnpm": {
     "peerDependencyRules": {
@@ -45,8 +46,5 @@
   "engines": {
     "node": ">=18",
     "pnpm": ">=8"
-  },
-  "dependencies": {
-    "cross-env": "^7.0.3"
   }
 }
